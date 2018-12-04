@@ -36,4 +36,55 @@ body {
 h1 {
   font-family: Lobster;
 }
+
+ul {
+  width: 100%;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+li {
+  font-size: 90%;
+  padding-left: 1%;
+  width: 24%;
+  float: left;
+}
+
+.CheckOut_h1 {
+  text-align: center;
+}
+
+.CheckOut_Summa {
+  float: left;
+  width: 100%;
+  text-align: right;
+}
+
+.CheckOut_RFrakt {
+  float: right;
+  width: 49%;
+  padding-bottom: 1%;
+  margin: 2px;
+}
+
+.CheckOut_LBetalning {
+  float: right;
+  width: 49%;
+  padding-bottom: 1%;
+  margin: 2px;
+}
+
+.CheckOut_footer {
+  text-align: center;
+}
+
+.CheckOut_footer {
+  background-color: #4CAF50;
+  padding-bottom: 1%;
+}
+
+.A1 {
+  clear: both;
+  padding-bottom: 4%;
+}
 /*# sourceMappingURL=main.css.map */
