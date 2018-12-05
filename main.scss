@@ -33,7 +33,7 @@ h1{
 
 
 
-
+/*---Product page---*/
 .products_column {
     float: left;
     width: 30%;
@@ -51,7 +51,7 @@ h1{
 
 
 .products_card {
-    box-shadow: 0 16px 22px 0 rgba(9, 70, 9, 0.2);
+    box-shadow: 0 22px 38px 0 rgba(18, 94, 18, 0.781);
 }
 
 
@@ -79,14 +79,24 @@ h1{
     background-color: #000;
     text-align: center;
     cursor: pointer;
-    width: 100%;
+    width: 100%;   
 }
 
 .products_button:hover {
-    background-color: #555;
+    background-color: #32cf46;
 }
-.category_list, li:before {
+.category_list a, li:before {
     content: "🐵";
+    text-decoration-line: none;
     margin-left: -20px;
     margin-right: 10px;
+    color: #51665a;
     }
+    .category_list a:hover {
+        color: #32cf46;
+      }
+      
+    h2{
+          font-family: Lobster
+    }   
+* {cursor: url(http://cur.cursors-4u.net/nature/nat-7/nat634.cur), auto !important;} 
