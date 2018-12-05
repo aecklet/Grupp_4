@@ -30,3 +30,63 @@ body{
 h1{
     font-family: Lobster;
 }
+
+
+
+
+.products_column {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+
+@media screen and (max-width: 650px) {
+    .products_column {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+.products_card {
+    box-shadow: 0 16px 22px 0 rgba(9, 70, 9, 0.2);
+}
+
+
+.products_container {
+    padding: 0 16px;
+}
+
+
+.products_container::after, .products_row::after {
+    products_content: "";
+    clear: both;
+    display: table;
+}
+
+.products_title {
+    color: grey;
+}
+
+.products_button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.products_button:hover {
+    background-color: #555;
+}
+.category-list, li:before {
+    content: "🐵";
+    margin-left: -20px;
+    margin-right: 10px;
+    }
