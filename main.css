@@ -64,4 +64,14 @@ body {
   margin-right: auto;
   border-radius: 5em;
 }
+
+.details_text {
+  width: 25em;
+  float: left;
+}
+
+.details_images {
+  width: 25em;
+  float: right;
+}
 /*# sourceMappingURL=main.css.map */
