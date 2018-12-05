@@ -195,4 +195,36 @@ h2 {
   margin-right: auto;
   border-radius: 5em;
 }
+
+.details > p {
+  float: left;
+  width: 50%;
+  margin-right: 20px;
+}
+
+.details {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  margin-bottom: 22px;
+  padding: 0 8px;
+  -webkit-box-shadow: 0 16px 22px 0 rgba(9, 70, 9, 0.2);
+          box-shadow: 0 16px 22px 0 rgba(9, 70, 9, 0.2);
+}
+
+.details h2 {
+  font-family: Lobster;
+}
+
+.details a {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 20%;
+}
 /*# sourceMappingURL=main.css.map */
