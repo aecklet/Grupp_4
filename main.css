@@ -44,6 +44,10 @@ body {
   }
 }
 
+h1 {
+  font-family: Lobster;
+}
+
 footer {
   text-align: center;
 }
@@ -63,6 +67,7 @@ footer {
 
 .CheckOut_h1 {
   text-align: center;
+  font-family: Lobster;
 }
 
 .CheckOut_Summa {
@@ -112,15 +117,6 @@ footer {
   text-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-#home_a4 {
-  width: 80%;
-  display: block;
-  margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5em;
-}
-
 /*---Product page---*/
 .products_column {
   float: left;
@@ -146,7 +142,6 @@ footer {
 }
 
 .products_container::after, .products_row::after {
-  products_content: "";
   clear: both;
   display: table;
 }
@@ -171,7 +166,7 @@ footer {
   background-color: #32cf46;
 }
 
-.category_list a, li:before {
+.category_list li:before {
   content: "🐵";
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
@@ -190,5 +185,14 @@ h2 {
 
 * {
   cursor: url(http://cur.cursors-4u.net/nature/nat-7/nat634.cur), auto !important;
+}
+
+#home_a4 {
+  width: 80%;
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5em;
 }
 /*# sourceMappingURL=main.css.map */

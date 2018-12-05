@@ -32,6 +32,9 @@ body{
       display: block;
     }
 }
+h1{
+    font-family: Lobster;
+}
 footer{
     text-align: center;
 }
@@ -52,6 +55,7 @@ footer{
 
 .CheckOut_h1{
     text-align: center;
+    font-family: Lobster;
 }
 .CheckOut_Summa {
     float: left;
@@ -131,7 +135,7 @@ footer{
 
 
 .products_container::after, .products_row::after {
-    products_content: "";
+    
     clear: both;
     display: table;
 }
@@ -155,7 +159,7 @@ footer{
 .products_button:hover {
     background-color: #32cf46;
 }
-.category_list a, li:before {
+.category_list li:before {
     content: "🐵";
     text-decoration-line: none;
     margin-left: -20px;
@@ -171,8 +175,6 @@ footer{
     }   
 * {cursor: url(http://cur.cursors-4u.net/nature/nat-7/nat634.cur), auto !important;} 
 
-
-}
 #home_a4{
     width: 80%;
     display: block;
