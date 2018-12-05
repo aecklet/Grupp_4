@@ -2,31 +2,107 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-        <title>G'r'Us</title>
-        <link rel="shortcut icon" href="Images/monkey.png"/>
+		<title>G'r'Us</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="shortcut icon" href="Images/monkey_2.png"/>
         <link rel="stylesheet" href="main.css">
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<header>
-            <h1>Gibbons'r'Us</h1>
+			<h1 class="home_a3">Gibbons'r'Us</h1>
 			<div class="navbar">
-                <a href="Grupp_4_Home.html"> Home</a> 
-                <a href="Grupp_4_Category.html"> Category</a> 
-                <a href="Grupp_4_Products.html"> Products</a> 
-                <a href="Grupp_4_MyPage.html"> My Page</a>
-                <a class="active" href="Grupp_4_CheckOut.html"> Check out</a>
+
+                <a href="Grupp_4_Home.html"> <img src="Images/home.png" height="20em" width="20em"> Home</a> 
+                <a href="Grupp_4_Category.html"><img src="Images/monkey_2.png" height="20em" width="20em"> Category</a> 
+                <a href="Grupp_4_Products.html"><img src="Images/product.png" height="20em" width="20em"> Products</a> 
+				<a href="Grupp_4_ProductDetails.html"><img src="Images/detail.png" height="20em" width="20em">Product details</a>
+				<a href="Grupp_4_MyPage.html"><img src="Images/user.png" height="20em" width="20em"> My Page</a>
+				<a class="active" href="Grupp_4_CheckOut.html"><img src="Images/shopping_cart.png" height="20em" width="20em"> Check out</a>
+
             </div>
 		</header>
 		<main>
-			<article>
-				<section></section>
-				<aside>...</aside>
-			</article>
+				<section class="CheckOut_produktkorg"> 
+						<h1 class="CheckOut_h1">CheckOut</h1>
+						<hr>
+						<nav class="CheckOut_list"> 
+								<ul class="CheckOut_ul">
+									<li class="CheckOut_li">1.</li>
+									<li class="CheckOut_li">produktNamn</li>
+									<li class="CheckOut_li">Antal: <input class="" type="text" maxlength="1" size="3">
+									<input type="button" value="Uppdatera"> </li>
+									<li class="CheckOut_li">Pris: kr </li>
+								</ul>
+						</nav>
+						<br><br><br>
+						<nav class="CheckOut_list"> 
+								<ul class="CheckOut_ul">
+									<li class="CheckOut_li">2.</li>
+									<li class="CheckOut_li">produktNamn</li>
+									<li class="CheckOut_li">Antal:  <input type="text" maxlength="1" size="3">
+									<input type="button" value="Uppdatera"> </li>
+									<li class="CheckOut_li">Pris: kr </li>
+								</ul>
+						</nav>
+						<br>
+				</section>
+					<br><br>
+					<hr>				
+						<form>
+							<input class="CheckOut_FHandla" type="button" value="Fortsätt handla" onclick="window.location.href='Grupp_4_Products.html'" />
+							</form> 
+					<br>
+					<br>
+					<div class="A1"></div>
+				<nav class="CheckOut_Summa">						 
+					<h3> Summa:</h3>
+						<h5> Moms: </h5>
+							<h5> Frakt: </h5>
+				</nav>
+				<br>
+					<hr>
+				<div class="A1"></div>	
+				<nav class="CheckOut_LBetalning"><h1>Betalningsinformation</h1>
+					<select>
+						<option value="välj">Välj</option>
+						<option value="Kort">Kort</option>
+						<option value="Switch">Switch</option>
+						<option value="Banköverförning">Banköverförning</option>
+					  </select>
+					  <br><br><br><br>		
+					<h1>Leveransmetod</h1>
+					<select>
+						<option value="välj">Välj</option>
+						<option value="hämta">Hämta i butiken</option>
+						<option value="Hem">Hemleverans</option>					
+					  </select>	
+					  <br>	
+				</nav>
+				<nav class="CheckOut_RFrakt"><h1>Leveransadress</h1>
+						Förnamn:<br>
+						<input type="text" name="name" placeholder="Förnamn"><br>
+						Efternamn:<br>
+						<input type="text" name="lastname" placeholder="Efternamn"><br>
+						<br>
+						Gatuadress:<br>
+						<input type="text" name="adress" placeholder="Adress"><br>
+						Ort:<br>
+						<input type="text" name="city" placeholder="Ort"><br>
+						
+						Postnummer:<br>
+						<input type="text" name="city" placeholder="Postnummer"><br>
+						<br>
+						Mob nr:<br>
+						<input type="text" name="mobil nr" placeholder="mob nr"><br>
+						<br>
+						<input type="button"style="height:10%;width:16%;" value="Send order" onclick="alert('Order registrerad')">
+				</nav>
 		</main>
-		<footer>
-			<nav>...</nav>
+		<div class="A1"></div>
+		<footer> 
+			<p class="navbar home_a2 w3-animate-fading"> Created by G'r'U dev.team</p>
 		</footer>
 	</body>
 </html>

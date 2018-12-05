@@ -19,15 +19,21 @@ body {
     width: 100%;
     background-color: #555;
     overflow: auto;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 5em;
 }
 
 .navbar a {
+    display: flex;
+    align-items: center;    
     float: left;
     text-align: center;
     padding: 12px;
     color: white;
-    text-decoration: none;    
-    font-size: 17px;
+
+    text-decoration: none;
+    font-size: 17px; 
 }
 
 .navbar a:hover {
@@ -48,6 +54,7 @@ body {
 h1{
     font-family: Lobster;
 }
+
 
 .Profile-Box img {
     height: 100px;
@@ -90,4 +97,182 @@ h2 {
     width: 80%;
     height: 50%;
     
+}
+
+footer{
+    text-align: center;
+}
+
+.CheckOut_ul {
+    width: 100%;
+    list-style-type: none;  
+    text-decoration: none;
+}
+
+.CheckOut_li{
+    
+    font-size: 90%;
+    padding-left: 1%;
+    width: 24%;
+    float: left;
+}
+
+.CheckOut_h1{
+    text-align: center;
+    font-family: Lobster;
+}
+.CheckOut_Summa {
+    float: left;
+    width: 100%;
+    text-align: right;
+}
+
+.CheckOut_FHandla{
+    float: right;
+}
+
+.CheckOut_RFrakt {
+    float: right;
+    width: 49%;
+    padding-bottom: 1%; 
+    margin: 2px;
+}
+
+.CheckOut_LBetalning {
+    float: right;
+    width: 49%;
+    padding-bottom: 1%;
+    margin: 2px; 
+}
+
+.A1{
+    clear: both;
+    padding-bottom: 4%;
+}
+
+.CheckOut_footer{
+    background-color: #4CAF50;
+    padding-bottom: 1%;
+}
+
+.home_a3{
+    font-family: Lobster;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.home_a2{
+    text-align: center;
+    font-family: Lobster;
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+}
+
+
+
+/*---Product page---*/
+.products_column {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+
+@media screen and (max-width: 650px) {
+    .products_column {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+.products_card {
+    box-shadow: 0 22px 38px 0 rgba(18, 94, 18, 0.781);
+}
+
+
+.products_container {
+    padding: 0 16px;
+}
+
+
+.products_container::after, .products_row::after {
+    
+    clear: both;
+    display: table;
+}
+
+.products_title {
+    color: grey;
+}
+
+.products_button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;   
+}
+
+.products_button:hover {
+    background-color: #32cf46;
+}
+.category_list li:before {
+    content: "🐵";
+    text-decoration-line: none;
+    margin-left: -20px;
+    margin-right: 10px;
+    color: #51665a;
+    }
+    .category_list a:hover {
+        color: #32cf46;
+      }
+      
+    h2{
+          font-family: Lobster
+    }   
+* {cursor: url(http://cur.cursors-4u.net/nature/nat-7/nat634.cur), auto !important;} 
+
+#home_a4{
+    width: 80%;
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5em;
+}
+
+
+.details>p {
+    float: left;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.details {
+    align-content: center;
+    width: 100%;
+    margin-bottom: 22px;
+    padding: 0 8px;
+    box-shadow: 0 16px 22px 0 rgba(9, 70, 9, 0.2);
+}
+ .details h2 {
+     font-family: Lobster;
+ }
+.details a {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 20%;
 }
