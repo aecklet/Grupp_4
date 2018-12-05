@@ -48,16 +48,6 @@ body {
   text-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-.home_a1 {
-  position: relative;
-  left: 17%;
-  width: 60%;
-  margin: 2em;
-  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  border-radius: 5em;
-}
-
 .home_a2 {
   text-align: center;
   font-family: Lobster;
@@ -67,8 +57,11 @@ body {
 }
 
 #home_a4 {
+  width: 80%;
   display: block;
+  margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 5em;
 }
 /*# sourceMappingURL=main.css.map */
