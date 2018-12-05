@@ -32,13 +32,13 @@ h1{
     font-family: Lobster;
 }
 
-ul {
+.CheckOut_ul {
     width: 100%;
     list-style-type: none;  
     text-decoration: none;
 }
 
-li{
+.CheckOut_li{
     
     font-size: 90%;
     padding-left: 1%;
@@ -56,6 +56,10 @@ li{
     text-align: right;
 }
 
+.CheckOut_FHandla{
+    float: right;
+}
+
 .CheckOut_RFrakt {
     float: right;
     width: 49%;
@@ -70,6 +74,11 @@ li{
     margin: 2px; 
 }
 
+.A1{
+    clear: both;
+    padding-bottom: 4%;
+}
+
 .CheckOut_footer {
     text-align: center;
 }
@@ -79,7 +88,3 @@ li{
     padding-bottom: 1%;
 }
 
-.A1{
-    clear: both;
-    padding-bottom: 4%;
-}
