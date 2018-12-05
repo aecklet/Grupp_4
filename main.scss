@@ -32,17 +32,67 @@ body{
       display: block;
     }
 }
+
+.CheckOut_ul {
+    width: 100%;
+    list-style-type: none;  
+    text-decoration: none;
+}
+
+.CheckOut_li{
+    
+    font-size: 90%;
+    padding-left: 1%;
+    width: 24%;
+    float: left;
+}
+
+.CheckOut_h1{
+    text-align: center;
+}
+.CheckOut_Summa {
+    float: left;
+    width: 100%;
+    text-align: right;
+}
+
+.CheckOut_FHandla{
+    float: right;
+}
+
+.CheckOut_RFrakt {
+    float: right;
+    width: 49%;
+    padding-bottom: 1%; 
+    margin: 2px;
+}
+
+.CheckOut_LBetalning {
+    float: right;
+    width: 49%;
+    padding-bottom: 1%;
+    margin: 2px; 
+}
+
+.A1{
+    clear: both;
+    padding-bottom: 4%;
+}
+
+.CheckOut_footer {
+    text-align: center;
+}
+
+.CheckOut_footer{
+    background-color: #4CAF50;
+    padding-bottom: 1%;
+}
+
 .home_a3{
     font-family: Lobster;
     text-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
-// .home_a1{
-//     position: relative;left: 17%;
-//     width: 80%;    
-//     margin: 2em;
-//     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-//     border-radius: 5em;
-//}
+
 .home_a2{
     text-align: center;
     font-family: Lobster;
